@@ -29,13 +29,13 @@ p{
     justify-content: center;
     color: white;
     font-size: 20px;
-    width: 48%;
+    width: 47%;
     margin-inline: 1%;
+    padding: 0.5%;
+    background-color: rgb(50, 50, 50);
     
 }
-p:hover{
-    background-color: rgb(50, 50, 50);;
-}
+
 img{
     display: flex;
     margin-left: auto;
