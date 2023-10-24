@@ -6,8 +6,6 @@ font-family: 'Noto Sans Mono', monospace
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-
-
 }
 
 h1{
@@ -24,9 +22,10 @@ h2{
     
 
 }
-p{
-    display: flex;
+.segment{
+    /*isplay: flex;*/
     justify-content: center;
+    flex-wrap: wrap;
     color: white;
     font-size: 20px;
     width: 47%;
@@ -47,4 +46,16 @@ img{
 img:hover{
     outline: auto;
     outline-style: inset;
+}
+#js{
+    color: yellow;
+}
+#ts{
+    color:rgb(52, 107, 226)
+}
+#java{
+    color:red;
+}
+#react{
+    color:cyan;
 }
